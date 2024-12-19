@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: Besley, serif;
+    text-align: center;
+    color: white;
+    background-color: #242C3A ;
+}
+
+.container, .calc-container, .calc-head, .calc-body {
+    display: flex;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container{
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    border: 10px solid #251e1d;
+}
+
+.calc-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 1rem;
+    border: 5px solid black;
+    height: 25%;
+}
+
+.calc-body {
+    height: 75%;
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+
+
+/* colors:
+original bg: #111827
+midel: 
+brighter one: #2c3647
+
+[#2c3647
+num buttons '#3b3b3b',
+other option for buttons '#343131',
+dark one '#251e1d',
+

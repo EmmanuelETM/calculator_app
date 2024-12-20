@@ -5,10 +5,14 @@
 }
 
 body {
+    height: 100vh;
     font-family: Besley, serif;
     text-align: center;
     color: white;
     background-color: #242C3A ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

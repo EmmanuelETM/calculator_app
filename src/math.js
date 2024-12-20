@@ -1,7 +1,7 @@
 const add = (x, y) => x + y;
 const substract = (x, y) =>  x - y;
 const multiply = (x, y) => x * y;
-const divide = (x, y) => x / y;
+const divide = (x, y) => y != 0 ? x / y : 'Wack Division';
 
 const operator = (x, y, op) => {
     if(op === '+') return add(x, y);
